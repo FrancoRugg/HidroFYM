@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html lang="en">
+<!-- <head> -->
+  <%- include("./partials/head") %>
+<!-- </head> -->
+<body>
+  <!-- <header> -->
+    <%- include("./partials/header") %>
+  <!-- </header> -->
+    <section class="section-categories">
+      <ul class="categories">
+        <li>
+          <i class="fa-solid fa-bars-staggered"></i>
+          <h3 style="color:black ;">Categorias</h3>
+          
+
+          <ul class="products">
+            <li><a class="title" style="color:green" href="#">Piscinas</a>
+              <ul class="products-sections pisci">
+                  <li><a href="#">Bombas para Piscinas</a></li>
+                  <li><a href="#">Filtración</a></li>
+                  <li><a href="#">Accesorios de Instalación</a></li>
+                  <li><a href="#">Decoración y Confort</a></li>
+                  <li><a href="#">Iluminación</a></li>
+                  <li><a href="#">Mantenimiento yLimpieza</a></li>
+                  <li><a href="#">Equipos de Desinfección</a></li>
+                  <li><a href="#">Productos Químicos</a></li>
+                  <li><a href="#">Climatización de Piscinas</a></li>
+
+              </ul>
+            </li>
+            <li><a class="title" style="color:green" href="#">Hidromasajes</a>
+              <ul class="products-sections hidro">
+                  <li><a href="#">Bombas Autodrenantes</a></li>
+
+              </ul>
+            </li>
+            <li><a class="title" style="color:green" href="#">Conección de Fluidos</a>
+              <ul class="products-sections fluid">
+                <li><a href="#">Válvulas Esfericas</a></li>
+                <li><a href="#">Válvulas de Retención</a></li>
+                <li><a href="#">Codos 90°</a></li>
+                <li><a href="#">Codos 45°</a></li>
+                <li><a href="#">Curvas 90°</a></li>
+                <li><a href="#">Tee 90°</a></li>
+                <li><a href="#">Tee Reducción 90°</a></li>
+                <li><a href="#">Cuplas</a></li>
+                <li><a href="#">Cruces</a></li>
+                <li><a href="#">Bujes Reducción(M-H pegar)</a></li>
+                <li><a href="#">Manguitos</a></li>
+                <li><a href="#">Uniones Dobles(H-H pegar)</a></li>
+                <li><a href="#">Uniones Dobles(H-H pegar/roscar)</a></li>
+                <li><a href="#">Bujes Reducción(H-M pegar/roscar)</a></li>
+                <li><a href="#">Tapones(Hembra pegar)</a></li>
+                <li><a href="#">Tapones(Macho pegar)</a></li>
+                <li><a href="#">Conectores con Salida Central</a></li>
+                <li><a href="#">Conectores con Salida Lateral</a></li>
+                <li><a href="#">Tuvos Flexibles PVC</a></li>                
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </li>
+      </ul>
+    </section>
+
+</body>
+<!-- <footer> -->
+  <%- include("./partials/footer") %>
+<!-- </footer> -->
 </html>

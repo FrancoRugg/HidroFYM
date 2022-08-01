@@ -1,3 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+header {
+  border: #30d662 solid 1px;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  background-color: white;
+}
+
+.upper{
+  display: flex;
+  flex-direction: raw;
+  margin: auto;
+  border: #30d662 solid 2px;
+}
+
+.logo {
+  width: 12.5%;
+  padding: 5px;
+  border-right: solid black 1.5px;
+}
+
+.search{
+  margin: auto;
+  width: 30%;   
+
+}
+
+.search-bar{
+  text-align: center;
+}
+
+.inn{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 5%;
+  font-size: 15px;
+  text-decoration-line: none;
+}
+
+.icon{
+  font-size: 2rem;
+  
+}
+
+.section-categories{
+  background-color: rgb(22, 161, 216);
+}
+
+.categories{
+  display: flex;
+      flex-direction: column;
+      border: solid black 1px;
+      padding: 15px 0px;
+      justify-content: space-between;
+      text-align: center;
+      margin: auto;
+      width: 50%;
+      font-size: 20px;
+      list-style: none;
+      min-width: 100px;
+      border-radius:5px;
+      border-style:hidden;
+      background-color: skyblue;
+      
+}
+
+li {
+  list-style: none;
+}
+
+.categories li, .categories li a {
+  text-decoration: none;
+  color: gray;
+  deco
+}
+
+.categories i {
+  color: black;
+  font-size: 28px;
+}
+
+.categories:hover .products{
+  
+    display: block;
+    transition-delay: 0.5s;
+
+}
+
+.products:hover .pisci, .hidro{
+  display: block;
+}
+
+.products:hover :hover .hidro, .products:hover :hover .fluid{
+  display: block;
+}
+
+
+.products, .products .products-sections{
+      display: none;
+}
+
+
+
+li .title:hover {
+  background-color: #1f11e7;
+  border-radius: 3px;
+}
+
+.title a{
+  color: gold;
+}
+
+.products li ul:hover {
+  background-color: #b4d674;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -5,4 +129,9 @@ body {
 
 a {
   color: #00B7FF;
+}
+
+
+footer {
+  margin: auto;
 }
