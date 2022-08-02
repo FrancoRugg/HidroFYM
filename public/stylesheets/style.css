@@ -2,14 +2,13 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-
+  
 }
 
 header {
-  border: #30d662 solid 1px;
   width: 100%;
-  padding: 0%;
-  margin: 0%;
+  padding: 0px;
+  margin: 0px;
   background-color: white;
 }
 
@@ -51,7 +50,7 @@ header {
 }
 
 .section-categories{
-  background-color: rgb(22, 161, 216);
+  
 }
 
 .categories{
@@ -122,9 +121,14 @@ li .title:hover {
   background-color: #b4d674;
 }
 
+.products li{
+  border: black solid 1px;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(22, 161, 216);
 }
 
 a {
