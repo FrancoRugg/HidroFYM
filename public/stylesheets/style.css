@@ -9,7 +9,7 @@ header {
   width: 100%;
   padding: 0px;
   margin: 0px;
-  background-color: white;
+  background-color: #303030;
 }
 
 .upper{
@@ -101,12 +101,9 @@ li {
   display: block;
 }
 
-
 .products, .products .products-sections{
       display: none;
 }
-
-
 
 li .title:hover {
   background-color: #1f11e7;
@@ -125,10 +122,11 @@ li .title:hover {
   border: black solid 1px;
 }
 
+
+
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: rgb(22, 161, 216);
+  background-color: #25b6ff;
 }
 
 a {
@@ -139,3 +137,9 @@ a {
 footer {
   margin: auto;
 }
+
+.carousel-inner img {
+  width: 50%;
+  height: 20%;
+}
+
