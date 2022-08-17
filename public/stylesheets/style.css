@@ -17,6 +17,11 @@ header {
   background-color: #303030;
 }
 
+.banner{
+  width: 100%;
+  height: 230px;
+}
+
 .about{
   margin: auto;
   background-image: url("/img/16.jpeg");
@@ -111,7 +116,8 @@ li {
 .categories:hover .products{
   
     display: block;
-    transition-delay: 0.5s;
+    transition-delay: 8s;
+   
 
 }
 
@@ -159,12 +165,21 @@ li .title:hover{
 }
 
 
-
-
 a {
   color: #00B7FF;
 }
+/* //productos destacados */
+.productosDestacados{
+  margin: auto;
+  text-align: center;
+}
 
+.sectionProductosDestacados{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px;
+}
 
 footer {
   margin: auto;
@@ -217,4 +232,12 @@ margin-left: 16.1%;
 .description p{
   color: #007bff;
   text-transform: ;
+}
+
+.end{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border:solid 1.5px;
+  align-items: center;
 }
