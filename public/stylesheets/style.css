@@ -2,11 +2,12 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  
+  font-family: 'Aboreto', cursive;
 }
 
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; */
+
   background-color: #42bdfa;
 }
 
@@ -83,9 +84,9 @@ header {
   
 }
 
-.section-categories{
+/* .section-categories{
   
-}
+} */
 
 .categories{
   /* position: absolute; */
@@ -94,7 +95,7 @@ header {
       border: solid black 2px;
       padding: 15px 0px;
       justify-content: space-between;
-      text-align: center;
+      text-align: left;
       margin: auto;
       width: 50%;
       font-size: 20px;
@@ -107,6 +108,34 @@ header {
       
 }
 
+
+/* .option2 ul{
+  display: none;
+}
+
+.categories :hover .products{
+  display: block;
+}
+
+.products:hover . {
+  display: block;
+} */
+
+
+/* .products:hover :hover .fluid, .products:hover :hover .hidro{
+  display: block;
+} */
+
+/* .products:hover :hover .fluid */
+
+/* .pisci ul:hover :hover .hidro{
+  display: block;
+}
+
+.products, .products .products-sections{
+  display: none;
+}  */
+
 li {
   list-style: none;
 }
@@ -114,7 +143,7 @@ li {
 .categories li, .categories li a {
   text-decoration: none;
   color: gray;
-  deco
+  
 }
 
 .categories i {
@@ -122,25 +151,26 @@ li {
   font-size: 28px;
 }
 
-.categories:hover .products{
+/* .categories:hover .products{
   
     display: block;
     transition-delay: 8s;
    
 
+} */
+
+.categories .option2{
+  display: flex;
+  flex-direction: column;
 }
 
-.products:hover .pisci, .hidro{
-  display: block;
-}
-
-.products:hover :hover .hidro, .products:hover :hover .fluid{
+/* .products:hover .pisci, .hidro{
   display: block;
 }
 
 .products, .products .products-sections{
       display: none;
-}
+} */
 
 li .title:hover{
   /* background-color: wheat; */
@@ -172,9 +202,9 @@ li .title:hover{
   color: greenyellow;
 }
 
-.products .title{
+/* .products .title {
   /* border: black solid 1px; */
-}
+ */
 
 
 a {
@@ -184,6 +214,7 @@ a {
 .productosDestacados{
   margin: auto;
   text-align: center;
+  width: 100%;
 }
 
 .sectionProductosDestacados{
@@ -191,6 +222,8 @@ a {
   flex-direction: row;
   justify-content: space-around;
   padding: 5px;
+  margin: auto;
+  width: 50%;
 
 }
 
@@ -209,11 +242,35 @@ footer {
  
 }
 
+.categories .option2{
+  display: none;
+}
+
+.categories:hover .option2{
+  display: block;
+}
+
+.option2:hover :hover .products{
+  display: block;
+}
+
+.list{
+  position: absolute;
+  left: 0%;
+  top: 390px;
+}
+/* modificar el top en todos los mq para que termine bien */
+
 .option2{
+  position: absolute;
 display:flex ;
+text-align: left;
 flex-direction: row;
-justify-content: space-evenly;
-margin-left: 16.1%;
+justify-content: space-between;
+/* margin-left: 16.1%; */
+background-color:beige;
+left:0%;
+top:424px;
 }
 
 .lower-icons{
@@ -265,7 +322,7 @@ margin-left: 16.1%;
 
 .description p{
   color: #007bff;
-  text-transform: ;
+ 
 }
 
 .redirections p {
