@@ -3,13 +3,14 @@
   margin: 0px;
   padding: 0px;
   font-family: 'Aboreto', cursive;
+  max-width: (2100px);
 }
 
 
 body {
   /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; */
 
-  background-color: #42bdfa;
+  /* background-color: #42bdfa; */
 }
 
 .feoXlb {
@@ -27,11 +28,66 @@ body {
       color: black;
 }
 
+/* Header */
+
 header {
   width: 100%;
-  padding: 0px;
+  /* padding: 0px; */
   margin: 0px;
-  background-color: #303030;
+  background: linear-gradient(50deg, skyblue 20%, rgb(68, 68, 241) 80%);
+
+}
+
+.busqueda {
+  /* position: absolute; */
+  /* background-color: rgba(87, 54, 54, 0.9); */
+  /* top: 80%; */
+  /* left: 48%; */
+  /* width: 210px; */
+}
+
+.upper{
+  position: relative;
+  display: flex;
+  flex-direction: raw;
+  margin: auto;
+  /* border: #30d662 solid 2px; */
+}
+
+.logo {
+  width: 12.5%;
+  padding: 5px;
+  border-right: solid black 1.5px;
+}
+
+.search{
+  margin: auto;
+  width: 30%;   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.search-bar{
+  text-align: center;
+}
+
+.inn{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 5%;
+  font-size: 15px;
+  text-decoration-line: none;
+}
+
+.inn a i{
+  color: #08ca79;
+}
+
+.inn a {
+  color: #b4d674;
 }
 
 .banner{
@@ -90,41 +146,15 @@ header {
   backdrop-filter:blur(3px);
 }
 
+.uss h6{
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
 .uss h1, .uss h6, .uss h5{
   text-align: center;
 }
 
-.upper{
-  display: flex;
-  flex-direction: raw;
-  margin: auto;
-  border: #30d662 solid 2px;
-}
-
-.logo {
-  width: 12.5%;
-  padding: 5px;
-  border-right: solid black 1.5px;
-}
-
-.search{
-  margin: auto;
-  width: 30%;   
-
-}
-
-.search-bar{
-  text-align: center;
-}
-
-.inn{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 5%;
-  font-size: 15px;
-  text-decoration-line: none;
-}
 
 .icon{
   font-size: 2rem;
@@ -307,20 +337,20 @@ footer {
 .list{
   position: absolute;
   left: 0%;
-  top: 390px;
+  top: 460px;
 }
 /* modificar el top en todos los mq para que termine bien */
 
 .option2{
   position: absolute;
-display:flex ;
-text-align: left;
-flex-direction: row;
-justify-content: space-between;
-/* margin-left: 16.1%; */
-background-color:beige;
-left:0%;
-top:424px;
+  display:flex ;
+  text-align: left;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin-left: 16.1%; */
+  background-color:beige;
+  left:0%;
+  top:470px;
 }
 
 .lower-icons{
@@ -388,4 +418,28 @@ top:424px;
   border:solid 1.5px;
   align-items: center;
   backdrop-filter:blur(8px);
+}
+
+@media (min-width: 1280px){
+
+
+@media (min-width: 778px) {
+
+  .list{
+    top:438px;
+  }
+  .option2{
+    top: 473px;
+  }
+
+}
+
+/* Celular */
+@media (min-width: 480px) {
+  .list{
+    top: 430px;
+  }
+  .option2{
+    top: 460px;
+  }
 }
